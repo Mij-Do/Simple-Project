@@ -1,0 +1,29 @@
+@media(max-width:880px){
+    nav{
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+    h1 , .links{
+        display: block;
+        padding: 10px;
+    }
+    #search{
+        width: 40%;
+        display: inline-block;
+        padding: 5px;
+    }
+}
+@media(max-width:840px){
+   main , .deve , .login_div{
+    display: block;
+    margin: 55px auto;
+   }
+}
+
+@media (max-width:520px){
+    main .deve , .login_div{
+        width: 100%;
+    } 
+    
+}

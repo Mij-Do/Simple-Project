@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/3600940.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <title>PraRoz</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <h1>PraRoz</h1>
+                <div class="links">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">service</a></li>
+                        <li><a href="#">design</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+                <div class="search-bar">
+                    <form id="navbar_form">
+                        <input type="search" name="search" id="search" placeholder="Type to Search">
+                        <input type="submit" value="Search" id="btn">
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <!-- main (body) -->
+        <main>
+            <!-- first div for explain the web-site -->
+            <div class="deve">
+                <h1>Web Design & <br>
+                    <span>Development</span>
+                    Course
+                </h1>
+                <p>Web Design is a speciakisation of the design stream.
+                    they also use <br> <span>HTML, CSS, WYSIWYG</span> editing software, mark up Validators etc, <br>
+                    to create design elements.
+                </p>
+            </div>
+            <!-- login div -->
+            <div class="login_div">
+                <form action="./test.php" method="post" id="login_form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" id="email" placeholder="Enter Email Here" required>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="Enter Password Here" required>
+                    <br>
+                    <input type="submit" name="submit" id="submit">
+                    <br>
+                    <p>Do not have an Account?</p>
+                    <p><a href="./signup.html">SignUp</a> Here</p>
+                    <p>Log In With</p>
+                    <div class="col">
+                        <ul>
+                            <li><a href="#"><img src="./image/google-logo-white-clipart.png" alt="Google icon" title="Google icon"></a></li>
+                            <li><a href="#"><img src="./image/logo-facebook.png" alt="Facebook Icon" title="Facbook icon"></a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p> &copy; Created By Ahmed Samir </p>
+        </footer>
+    </div>
+</body>
+</html>

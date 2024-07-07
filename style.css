@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background-image: url('./image/pexels-markburnett-1095817.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+::selection{
+    background-color: #c48f00;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+    color: white;
+    caret-color: #ffd152;
+}   
+
+
+header{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 100px;
+}
+
+/* navbar */
+
+nav{
+    width: 100%;
+    background-color: #00000069;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo */
+
+header h1{
+    color: #9e7609;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+
+/* links */
+
+.links{
+    text-align: center;
+}
+
+.links ul li{
+    display: inline;
+    list-style: none;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #c49209;
+    text-transform: uppercase;
+    padding: 3px;
+}
+.links ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.links ul li a:active{
+    color: #ffd255;
+}
+
+
+/* Search bar */
+
+#search{
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #c492098c;
+    color: white;
+    margin: 4px;
+}
+#search::placeholder{
+    text-align: center;
+    color: white;
+}
+#search:hover{
+    background: #0000003d;
+    color: white;
+    border-bottom: solid 2px gray;
+}
+#search:focus{
+    background: darkslategray;
+    outline: none;
+    border-bottom: solid 2px white;    
+}
+
+/* button */
+
+#btn{
+    width: 55px;
+    padding:3px;
+    border-radius: 4px;
+    color: white;
+    background: #c49209;
+    transition: 1s;
+}
+#btn:hover{
+    background: white;
+    color: #c49209;
+    width: 70px;
+}
+#btn:active{
+    background: #ffd152;
+}
+
+
+
+/* Styles for first div for explain the web-site */
+
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.deve{
+    width: 65%;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    background: #00000069;
+    letter-spacing: 1px;
+}
+
+.deve h1{
+    margin-bottom: 25px;
+}
+
+.deve span{
+    color: #9e7609;
+}
+
+
+/* Styles for login div */
+
+
+.login_div{
+    width: 35%;
+    margin: 10px;
+    padding: 10px;
+    background: #00000069;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#login_form h2{
+    color: #9e7609;
+}
+
+#login_form input{
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #c492098c;
+    color: white;
+    margin: 10px;
+}
+
+#login_form input::placeholder{
+    text-align: center;
+    color: white;
+}
+#login_form input:hover{
+    background: #0000003d;
+    color: white;
+    border-bottom: solid 2px gray;
+}
+#login_form input:focus{
+    background: darkslategray;
+    outline: none;
+    border-bottom: solid 2px white;    
+}
+
+/* btn form login */
+
+#login_form #submit{
+    width: 30%;
+    padding:3px;
+    border-radius: 4px;
+    color: white;
+    background: #c49209;
+    transition: 1s;
+}
+#login_form #submit:hover{
+    background: white;
+    color: #c49209;
+    width: 100px;
+}
+#login_form #submit:active{
+    background: #ffd152;
+}
+
+#login_form p a{
+    text-decoration: none;
+    color: #c49209;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+#login_form p a:hover{
+    text-decoration: underline;
+    color: white;
+}
+#login_form p a:active{
+    color: #ffd255;
+}
+
+
+.col ul{
+    list-style: none;
+    margin: 10px;
+}
+
+.col ul li{
+    display: inline;
+    padding: 10px;
+}
+
+.col ul li img{
+    width: 20px;
+    transition: 1s;
+}
+.col ul li img:hover{
+    width: 25px;
+}
+
+
+/* footer */
+
+
+footer{
+    width: 100%;
+    background-color: #00000069;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 150px;
+    text-align: center;
+}
